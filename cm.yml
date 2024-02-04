@@ -1,0 +1,8 @@
+# /home/ec2-user/cm.yml
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: my-cm
+data:
+  hostname: "my-server"
+  aws_acc_no: "123456789"

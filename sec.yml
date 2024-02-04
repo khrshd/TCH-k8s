@@ -1,0 +1,9 @@
+# /home/ec2-user/sec.yml
+apiVersion: v1
+kind: Secret
+metadata:
+  name: my-sec
+type: Opaque
+data:
+  username: "dXNlcm5hbQ==" 
+  password: "cGFzc3dvcmQ="
